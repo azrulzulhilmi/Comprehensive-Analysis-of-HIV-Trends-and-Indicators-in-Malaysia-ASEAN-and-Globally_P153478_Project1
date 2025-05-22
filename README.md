@@ -1,7 +1,7 @@
 # 🧪 HIV Trends and Indicators: Malaysia, ASEAN, and Global Perspective
 
 <p align="center">
-  <img src="plot/hiv_header.jpg" alt="HIV Awareness" width="30%">
+  <img src="Plot/hiv_header.jpg" alt="HIV Awareness" width="30%">
 </p>
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)  

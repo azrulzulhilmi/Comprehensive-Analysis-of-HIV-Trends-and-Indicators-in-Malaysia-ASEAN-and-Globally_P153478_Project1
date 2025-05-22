@@ -1,7 +1,7 @@
 # 🧪 HIV Trends and Indicators: Malaysia, ASEAN, and Global Perspective
 
 <p align="center">
-  <img src="Plot/hiv_header.jpg" alt="HIV Awareness" width="30%">
+  <img src="Plot/HIV_header.jpg" alt="HIV Awareness" width="50%">
 </p>
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)  
@@ -13,86 +13,89 @@
 
 ## 🌍 Overview and Introduction
 
-This data science project analyzes HIV/AIDS epidemiological data across **Malaysia**, the **ASEAN region**, and **globally**. It explores patterns in transmission, prevalence, and policy response using multiple public health datasets.
+This data science project delves into HIV/AIDS trends and key indicators across **Malaysia**, **ASEAN countries**, and the **global landscape**. Utilizing comprehensive datasets from UNAIDS and other reputable sources, the analysis offers insights into the progression of the HIV epidemic, treatment coverage, and mortality rates over time.
 
-Key goals include:
-- Understanding the progression of HIV/AIDS cases over time.
-- Identifying key populations at risk.
-- Evaluating the impact of healthcare access and interventions.
+**Key Objectives:**
+
+- Analyze temporal trends in HIV prevalence, new infections, and AIDS-related deaths.
+- Assess antiretroviral therapy (ART) coverage among people living with HIV (PLHIV).
+- Compare regional disparities and identify areas requiring targeted interventions.
 
 ---
 
 ## 📁 Dataset Overview
 
-Key data sources and features:
+**Primary Data Sources:**
 
-- 🧬 **Epidemiological Metrics**: New HIV infections, AIDS cases, AIDS-related deaths  
-- 👥 **Demographics**: Age, gender, risk groups (e.g., MSM, PWID, FSW, TG)  
-- 🏥 **Healthcare Access**: ART coverage, testing rates, treatment success  
-- 🌐 **Geographic Scope**: Malaysia-focused, with ASEAN and global comparisons
+- UNAIDS Global HIV & AIDS Statistics  
+- World Health Organization (WHO) HIV/AIDS Data  
+
+**Key Indicators Analyzed:**
+
+- Estimated number of PLHIV  
+- New HIV infections per 1,000 uninfected population  
+- Number of people receiving ART  
+- AIDS-related mortality rates  
+- Percentage of HIV-positive results returned to individuals
 
 ---
 
 ## 🎯 Objectives
 
-- Track HIV case and death trends over the past two decades.
-- Compare country-level ART coverage and prevention effectiveness.
-- Visualize the concentration of cases among key populations.
-- Support data-driven health policy decisions.
+- To examine the trends in HIV/AIDS indicators over time across Malaysia, ASEAN, and globally.  
+- To evaluate the effectiveness of ART programs and their impact on mortality rates.  
+- To identify regional disparities and recommend areas for policy intervention.
 
 ---
 
 ## 🧹 Data Cleaning & Preparation
 
-Steps taken:
-- ✔ Merged and standardized multiple sources (UNAIDS, WHO, national reports)
-- ✔ Filled missing values with interpolation or mean substitution
-- ✔ Created derived indicators:
-  - **ART Coverage Rate**
-  - **Death-to-Case Ratio**
-  - **Infection Rate by Key Population**
+**Steps Undertaken:**
+
+- Handled missing values through imputation or exclusion, as appropriate.  
+- Standardized country and indicator names for consistency.  
+- Converted data types to ensure accurate computations.  
+- Merged datasets from multiple sources to create a unified analytical framework.
 
 ---
 
 ## 📈 Analysis & Visualizations
 
-Visual insights include:
+**Key Visual Insights:**
 
-### 📌 Time Series Trends
+### 📌 HIV Trends in Malaysia Living with HIV Deaths ART Coverage and New Infections (Normalized) 
 
-> ![Placeholder for trend](images/hiv_trend_plot.png)  
-Malaysia shows a transition from injection-driven transmission to sexual transmission since the 2010s.
+> ![HIV Trend](Plot/pic4_HIV_Trends_in_Malaysia_Living_with_HIV_Deaths_ART_Coverage,_and_New_Infections_(Normalized).png)
 
----
+Illustrates the rise or decline in the number of PLHIV in Malaysia from 2000 to 2023.
 
-### 📌 Key Populations by Country
+### 📌 Estimated Number of People Living with HIV in ASEAN (2000-2023)
 
-> ![Key population bar chart](images/key_populations.png)  
-High infection rates among MSM and PWID, especially in Malaysia and Thailand.
+> ![HIV Trend](Plot/pic9_Estimated_Number_of_People_Living_with_HIV_in_ASEAN_(2000_2023).png)
 
----
+Illustrates the rise or decline in the number of PLHIV across ASEAN from 2000 to 2023.
 
-### 📌 ART Coverage vs Death Rates
+### 📌 Estimated Number of People Living with HIV by WHO Region (2023)
 
-> ![ART impact plot](images/art_vs_death.png)  
-Countries with higher ART coverage show a steady decline in AIDS-related deaths.
+> ![HIV Trend](Plot/pic14_Estimated_Number_of_People_Living_with_HIV_by_WHO_Region_(2000_2023).png)
+
+Illustrates the rise or decline in the number of PLHIV across different regions from 2000 to 2023.
 
 ---
 
 ## 🧩 Key Challenges
 
-- 📊 Limited or inconsistent data from some ASEAN countries
-- 🌍 Standardizing global vs regional metrics
-- 🔍 Lack of granular age/gender breakdown in older records
+- Data discrepancies across different countries and years.  
+- Incomplete datasets requiring careful handling of missing values.  
+- Variations in data reporting standards among countries.
 
 ---
 
 ## ✅ Conclusion
 
-- **Key populations** remain disproportionately affected.
-- **Malaysia** has improved ART coverage, but prevention among MSM and PWID needs scaling.
-- **Global disparity** persists — Sub-Saharan Africa bears the heaviest burden.
-- **Data** is essential for targeted intervention and public health planning.
+- Significant progress has been made in increasing ART coverage, leading to reductions in AIDS-related deaths.  
+- However, disparities persist among ASEAN countries, necessitating targeted interventions.  
+- Continuous monitoring and data-driven policies are essential to combat the HIV epidemic effectively.
 
 ---
 
@@ -101,29 +104,22 @@ Countries with higher ART coverage show a steady decline in AIDS-related deaths.
 | Tool            | Purpose                        |
 |-----------------|--------------------------------|
 | `pandas`        | Data manipulation              |
-| `numpy`         | Numerical operations           |
-| `matplotlib`    | Visualization                  |
-| `seaborn`       | Advanced plots                 |
-| `jupyter`       | Notebook interface             |
+| `numpy`         | Numerical computations         |
+| `matplotlib`    | Data visualization             |
+| `seaborn`       | Statistical data visualization |
+| `jupyter`       | Interactive coding environment |
 
 ---
 
-## 👨‍🏫 Author
+## 🧑‍💻 Author
 
 **Azrul Zulhilmi bin Ahmad Rosli**  
-📘 STQD 6324 Statistical Data Analysis — Semester 1, 2024/2025  
-👩‍🏫 Lecturer: Dr. Nurul Afiqah Burhanuddin
+📘 STQD 6014 Data Science — Semester 1, 2024/2025  
+👩‍🏫 Lecturer: Dr. Bernard
 
 ---
 
 ## 📚 References
 
-- [UNAIDS Global AIDS Monitoring](https://www.unaids.org/en/global-aids-monitoring)
-- [World Health Organization - HIV Data](https://www.who.int/data/gho/data/themes/hiv-aids)
-- Malaysian AIDS Council (MAC)
-- ASEAN HIV/AIDS Data Archives
-
-📎 [View the Jupyter Notebook](https://github.com/azrulzulhilmi/Comprehensive-Analysis-of-HIV-Trends-and-Indicators-in-Malaysia-ASEAN-and-Globally_P153478_Project1/blob/main/P153478_Project1_STQD6324.ipynb)
-
----
-
+- UNAIDS Global HIV & AIDS Statistics  
+- World Health Organization (WHO) HIV/AIDS Data  
